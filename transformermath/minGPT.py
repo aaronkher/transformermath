@@ -170,5 +170,4 @@ class GPT(nn.Module):
 
 """Config and create GPT"""
 
-# TODO: cite this in dissertation report
 # citation: https://github.com/H-TayyarMadabushi
