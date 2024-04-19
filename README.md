@@ -72,10 +72,7 @@ transformermath.visualise_sequence_embeddings(sequence_embeddings_data=sequence_
                                visualise_method="pca")
 ```
 
-<div style="text-align: center;">
-    <img src="images/sequence_visual.png" alt="Sequence Visualisation" width="50%" />
-</div>
-
+![sequence_visual](images/sequence_visual.png)
 
 **Visualise token embeddings**
 
@@ -86,10 +83,7 @@ transformermath.visualise_token_embeddings(token_embeddings_data=token_represent
                                visualise_method="tsne")
 ```
 
-<div style="text-align: center;">
-    <img src="images/token_visual.png" alt="Token Visualisation" width="50%" />
-</div>
-
+![Token Visual](images/token_visual.png)
 
 **Tokenizer**
 
@@ -104,9 +98,7 @@ transformermath.display_attention_map(sequences=sequences, attention_weights=att
                        layer=0, head=0, sequence_index=0, tokenizer=tokenizer)
 ```
 
-<div style="text-align: center;">
-    <img src="images/attention_visual.png" alt="Attention" width="60%" />
-</div>
+![Attention](images/attention_visual.png)
 
 **Display average attention map**
 
@@ -115,10 +107,7 @@ display_average_attention_map(attention_weights=attention_weights,
                               layer=0, head=0, tokenizer=tokenizer)
 ```
 
-<div style="text-align: center;">
-    <img src="images/avg_attention_visual.png" alt="Average Attention" width="50%" />
-</div>
-
+![Average Attention](images/avg_attention_visual.png)
 
 **Display attention weight distribution** 
 
@@ -129,10 +118,7 @@ display_attention_distributional_histogram(attention_weights_ID=attention_weight
 
 ```
 
-<div style="text-align: center;">
-    <img src="images/histogram_visual.png" alt="Attention Weight Distribution Histogram" width="50%" />
-</div>
-
+![Histogram](images/histogram_visual.png)
 
 **Attention weight distribution difference tests**
 
