@@ -103,7 +103,7 @@ transformermath.display_attention_map(sequences=sequences, attention_weights=att
 **Display average attention map**
 
 ```python
-display_average_attention_map(attention_weights=attention_weights,
+transformermath.display_average_attention_map(attention_weights=attention_weights,
                               layer=0, head=0, tokenizer=tokenizer)
 ```
 
@@ -112,7 +112,7 @@ display_average_attention_map(attention_weights=attention_weights,
 **Display attention weight distribution** 
 
 ```python
-display_attention_distributional_histogram(attention_weights_ID=attention_weights_ID,
+transformermath.display_attention_distributional_histogram(attention_weights_ID=attention_weights_ID,
                                           attention_weights_OOD=attention_weights_OOD,
                                             layer=0, head=0, tokenizer=tokenizer)
 
@@ -123,7 +123,7 @@ display_attention_distributional_histogram(attention_weights_ID=attention_weight
 **Attention weight distribution difference tests**
 
 ```python
-ks_statistic, ks_p_value, cosine_sim, energy_distance = perform_distributional_significance_tests(attention_weights_ID=attention_weights_OOD,
+ks_statistic, ks_p_value, cosine_sim, energy_distance = transformermath.perform_distributional_significance_tests(attention_weights_ID=attention_weights_OOD,
                                           attention_weights_OOD=attention_weights_ID,
                                           layer=0, head=0, tokenizer=tokenizer)
 ```
